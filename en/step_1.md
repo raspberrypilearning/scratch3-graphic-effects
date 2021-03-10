@@ -1,59 +1,44 @@
-## Introduction
+## Use graphic effects
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Use graphic effects to change and set color, ghost, brightness and more effects on sprites and the Stage.
 
-### What you will make
-
---- no-print ---
-Add instructions for interacting with the embedded content here.
+**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
---- /no-print ---
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus where you can choose from a range of different graphic effects that can be used to change your sprite's appearance.
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
++ `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
++ `fisheye`{:class="block3looks"}: `0` means no effect, bigger numbers cause a bigger 'bulge' effect
++ `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, big negative numbers make a big whirl to the right
++ `pixelate`{:class="block3looks"}: `0` means no effect, bigger numbers create more pixels
++ `mosaic`{:class="block3looks"}: `0` means no effect, bigger numbers create more copies
++ `brightness`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker 
++ `ghost`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite more transparent 
 
-+ A computer or tablet capable of running Scratch 3
+Try to `set`{:class="block3looks"} the different effect values to see what each one does. Explore how different effect changes make your sprite look.
 
-### Software
+```blocks3
+set [whirl v] effect to (100)
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+set [pixelate v] effect to (50)
+```
 
-### Downloads
+**Tip:** A colour effect of 225 is the same as a colour effect of 25 so you can keep changing the colour. For other effects nothing will happen after you reach the maximum number for the effect. 
 
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+```blocks3
+forever
+change [color v] effect by [25]
+wait [0.5] seconds
+```
 
---- /collapse ---
+Use `clear graphic effects`{:class="block3looks"} to start again. Clicking the green flag also clears all graphic effects.
 
---- collapse ---
----
-title: What you will learn
----
+To set the graphic effect of a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+```blocks3
+when green flag clicked
+set [ghost v] effect to (25)
+```
