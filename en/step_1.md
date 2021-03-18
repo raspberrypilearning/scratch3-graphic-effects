@@ -1,5 +1,3 @@
-## Use graphic effects
-
 Use graphic effects to change and set color, ghost, brightness and more effects on sprites and the Stage.
 
 **Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
