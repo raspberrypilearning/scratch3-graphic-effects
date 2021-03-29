@@ -1,4 +1,4 @@
-Use graphic effects to change and set color, ghost, brightness and more effects on sprites and the Stage.
+Use graphic effects to change and set `color`{:class="block3looks"}, `ghost`{:class="block3looks"}, `brightness`{:class="block3looks"}, and more effects on sprites and the Stage.
 
 **Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
 
@@ -24,7 +24,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-**Tip:** A colour effect of 225 is the same as a colour effect of 25 so you can keep changing the colour. For other effects nothing will happen after you reach the maximum number for the effect. 
+**Tip:** A `color effect`{:class="block3looks"} of `225` is the same as a `color effect`{:class="block3looks"} of `25`, so you can keep changing the colour. For other effects, nothing will happen after you reach the maximum number for the effect. 
 
 ```blocks3
 forever
