@@ -9,7 +9,7 @@ Use graphic effects to `change`{:class="block3looks"} and `set`{:class="block3lo
 The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus in which you can choose from a range of different graphic effects that can be used to change your sprite's appearance.
 
 + `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
-+ `fisheye`{:class="block3looks"}: `0` means no effect, big numbers cause a bigger 'fisheye' effect, and big negative numbers cause a reverse 'fisheye' effect.
++ `fisheye`{:class="block3looks"}: `0` means no effect, big numbers cause a bigger 'fisheye' effect, and big negative numbers cause a reverse 'fisheye' effect
 + `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, and big negative numbers make a big whirl to the right
 + `pixelate`{:class="block3looks"}: `0` means no effect, and bigger numbers create more pixels
 + `mosaic`{:class="block3looks"}: `0` means no effect, and bigger or negative numbers create more copies
@@ -32,7 +32,7 @@ change [color v] effect by [25]
 wait [0.5] seconds
 ```
 
-Use `clear graphic effects`{:class="block3looks"} to start again. Clicking the green flag also clears all graphic effects.
+Use `clear graphic effects`{:class="block3looks"} to start again. Clicking on the green flag also clears all graphic effects.
 
 To set the graphic effect of a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
 
