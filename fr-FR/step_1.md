@@ -37,6 +37,6 @@ Utilise `annuler les effets graphiques`{:class="block3looks"} pour recommencer. 
 Pour définir l'effet graphique d'un sprite au démarrage du projet, place un `mettre l'effet graphique à`{:class="block3looks"} sous un bloc `quand le drapeau vert est cliqué`{:class="block3events"} :
 
 ```blocks3
-quand le drapeau vert est cliqué
+when green flag clicked
 mettre l'effet [fantôme v] à (25)
 ```
