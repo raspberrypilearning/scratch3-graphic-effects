@@ -6,10 +6,10 @@ Use graphic effects to `change`{:class="block3looks"} and `set`{:class="block3lo
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus in which you can choose from a range of different graphic effects that can be used to change your sprite's appearance.
+The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus in which you can choose from a range of different graphic effects that can be used to change your sprite's appearance:
 
 + `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
-+ `fisheye`{:class="block3looks"}: `0` means no effect, big numbers cause a bigger 'fisheye' effect, and big negative numbers cause a reverse 'fisheye' effect
++ `fisheye`{:class="block3looks"}: `0` means no effect, bigger numbers cause a bigger 'fisheye' effect, and negative numbers cause a reverse 'fisheye' effect
 + `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, and big negative numbers make a big whirl to the right
 + `pixelate`{:class="block3looks"}: `0` means no effect, and bigger numbers create more pixels
 + `mosaic`{:class="block3looks"}: `0` means no effect, and bigger or negative numbers create more copies
