@@ -1,22 +1,22 @@
-Use graphic effects to `change`{:class="block3looks"} and `set`{:class="block3looks"} `color`{:class="block3looks"}, `ghost`{:class="block3looks"}, `brightness`{:class="block3looks"}, and other effects for sprites and the Stage.
+استخدام المؤثرات الصورية لـ `تغيير `{:class="block3looks"} و `ضبط `{:class="block3looks"}` اللون` {:class="block3looks"} ` الشفافية`{:class="block3looks"} ، ` والسطوع`:class="block3looks"}، وتأثيرات أخرى للكائنات والمنصة.
 
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
+**تأثيرات الديك**: [انظر في الداخل](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus in which you can choose from a range of different graphic effects that can be used to change your sprite's appearance.
+الكتل `اجعل مؤثر اللون مساويا`{:class="block3looks"} و `غير مؤثر اللون بمقدار`{:class="block3looks"} كلاهما يحتويان على قوائم منسدلة يمكنك من خلالها الاختيار من بين مجموعة من التأثيرات الرسومية المختلفة التي يمكن استخدامها لتغيير مظهر الكائن الخاص بك.
 
-+ `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
-+ `fisheye`{:class="block3looks"}: `0` means no effect, big numbers cause a bigger 'fisheye' effect, and big negative numbers cause a reverse 'fisheye' effect.
-+ `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, and big negative numbers make a big whirl to the right
-+ `pixelate`{:class="block3looks"}: `0` means no effect, and bigger numbers create more pixels
-+ `mosaic`{:class="block3looks"}: `0` means no effect, and bigger or negative numbers create more copies
-+ `brightness`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker
-+ `ghost`{:class="block3looks"}: `0` means no effect, and numbers up to `100` make the sprite more transparent
++ `اللون`{:class="block3looks"}: من `0` إلى `199` (الاعداد الكبيرة سوف يقوم بتقريبها، لذلك `200` هو نفس `0`)
++ `عين السمكة`{: class = "block3looks"}: `0` تعني عدم وجود تأثير، والأرقام الكبيرة تسبب تأثير "عين السمكة" اكبر ، والأرقام السالبة الكبيرة تسبب تأثير "عين السمكة" المعاكس.
++ `الدوامة`{: class = "block3looks"}: `0` تعني عدم وجود تأثير، والأرقام الكبيرة تصنع دوامة كبيرة إلى اليسار، والأرقام السالبة الكبيرة تصنع دوامة كبيرة إلى اليمين
++ `البكسلة`{: class = "block3looks"}: `0` تعني عدم وجود تأثير ، والأرقام الأكبر تخلق المزيد من وحدات البكسل
++ `الموزاييك`{: class = "block3looks"}: `0` تعني عدم وجود تأثير ، والأرقام الأكبر أو السالبة تنشئ المزيد من النسخ
++ `شدة الاضاءة`{:class="block3looks"}: `0` تعني لا وجود لأي تأثير، الأرقام إلى `100` تجعل الكائن أفتح، والأرقام السالبة الى `-100` تجعل الكائن أغمق
++ `الشبح`{:class="block3looks"}: `0` لا وجود لأي تأثير، وألارقام إلى `100` تجعل الكائن أكثر شفافية
 
-Try to `set`{:class="block3looks"} the different effect values to see what each one does. Explore how different effect changes make your sprite look.
+جرب `تعيين`{: class = "block3looks"} قيم تأثير مختلفة لمعرفة ما يفعله كل واحد. اكتشف كيف تؤدي التغييرات المختلفة في التأثير على مظهر الكائن الخاص بك.
 
 ```blocks3
 set [whirl v] effect to (100)
@@ -24,7 +24,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-**Tip:** A `color effect`{:class="block3looks"} of `225` is the same as a `color effect`{:class="block3looks"} of `25`, so you can keep changing the colour. For other graphic effects, no other changes will be made after you reach the maximum or minimum number for the effect.
+**نصيحة:** أ `تأثير اللون`{:class="block3looks"} بالقيمة `225` هي نفس `تأثير اللون`{:class="block3looks"} بالقيمة `25`، لتتمكن من الاستمرار بتغيير اللون. بالنسبة لتأثيرات الرسوم الأخرى، لن يتم إجراء أي تغييرات أخرى بعد الوصول إلى الحد الأقصى أو الحد الأدنى لقيمة التأثير.
 
 ```blocks3
 forever
@@ -32,9 +32,9 @@ change [color v] effect by [25]
 wait [0.5] seconds
 ```
 
-Use `clear graphic effects`{:class="block3looks"} to start again. Clicking the green flag also clears all graphic effects.
+استخدم `أزل المؤثرات الرسومية `{: class = "block3looks"} للبدء من جديد. يؤدي النقر فوق العلم الأخضر أيضًا إلى مسح جميع التأثيرات الرسومية.
 
-To set the graphic effect of a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+لتعيين التأثير الرسومي للكائن عند بدء المشروع ، ضع كتلة `اجعل مؤثر الرسوم مساويا`{:class="block3looks"} تحت كتلة `عند النقر على العلم الأخضر`{:class="block3events"}:
 
 ```blocks3
 when green flag clicked
