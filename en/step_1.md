@@ -12,7 +12,7 @@ The `set color effect to`{:class="block3looks"} and `change color effect by`{:cl
 + `fisheye`{:class="block3looks"}: `0` means no effect, bigger numbers cause a bigger 'fisheye' effect, and negative numbers cause a reverse 'fisheye' effect
 + `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, and big negative numbers make a big whirl to the right
 + `pixelate`{:class="block3looks"}: `0` means no effect, and bigger numbers create more pixels
-+ `mosaic`{:class="block3looks"}: `0` means no effect, bigger or negative numbers affect the number of copies
++ `mosaic`{:class="block3looks"}: `0` means no effect, and bigger or negative numbers affect the number of copies
 + `brightness`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker 
 + `ghost`{:class="block3looks"}: `0` means no effect, and numbers up to `100` make the sprite more transparent 
 
