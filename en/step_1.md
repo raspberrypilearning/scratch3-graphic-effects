@@ -1,5 +1,3 @@
-Use graphic effects to `change`{:class="block3looks"} and `set`{:class="block3looks"} `color`{:class="block3looks"}, `ghost`{:class="block3looks"}, `brightness`{:class="block3looks"}, and other effects for sprites and the Stage.
-
 **Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
 
 <div class="scratch-preview">
@@ -32,11 +30,13 @@ change [color v] effect by [25]
 wait [0.5] seconds
 ```
 
-Use `clear graphic effects`{:class="block3looks"} to start again. Clicking on the green flag also clears all graphic effects.
+Use the `clear graphic effects`{:class="block3looks"} block to start again. Clicking on the green flag also clears all graphic effects.
 
-To set the graphic effect of a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+To set a graphic effect for a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
 
 ```blocks3
 when green flag clicked
 set [ghost v] effect to (25)
 ```
+
+**Tip:** You can also `set`{:class="block3looks"} and `change`{:class="block3looks"} graphic effects for the **Stage**.
