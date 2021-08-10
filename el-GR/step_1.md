@@ -1,20 +1,20 @@
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
+**εφέ κόκορα**: [Δείτε μέσα](https://scratch.mit.edu/projects/435730522/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus in which you can choose from a range of different graphic effects that can be used to change your sprite's appearance:
+Το `ορίζει το εφέ χρώματος σε`{: class = "block3looks"} και το `αλλάζουν το εφέ χρώματος κατά`μπλοκ {: class = "block3looks"} και τα δύο έχουν αναπτυσσόμενα μενού στα οποία μπορείτε να επιλέξετε από μια σειρά διαφορετικών εφέ γραφικών που μπορεί να χρησιμοποιηθεί για να αλλάξετε την εμφάνιση του Sprite:
 
-+ `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
-+ `fisheye`{:class="block3looks"}: `0` means no effect, bigger numbers cause a bigger 'fisheye' effect, and negative numbers cause a reverse 'fisheye' effect
-+ `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, and big negative numbers make a big whirl to the right
-+ `pixelate`{:class="block3looks"}: `0` means no effect, and bigger numbers create more pixels
-+ `mosaic`{:class="block3looks"}: `0` means no effect, and bigger or negative numbers affect the number of copies
-+ `brightness`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker
-+ `ghost`{:class="block3looks"}: `0` means no effect, and numbers up to `100` make the sprite more transparent
++ `χρώμα`{: class = "block3looks"}: από `0` έως `199` (μεγαλύτεροι αριθμοί θα τυλιχτούν, οπότε το `200` είναι το ίδιο με το `0`)
++ `fisheye`{: class = "block3looks"}: `0` σημαίνει ότι δεν υπάρχει αποτέλεσμα, μεγαλύτεροι αριθμοί προκαλούν μεγαλύτερο φαινόμενο «fisheye» και οι αρνητικοί αριθμοί προκαλούν αντίστροφο φαινόμενο «fisheye»
++ `στροβιλισμός`{: class = "block3looks"}: `0` σημαίνει καμία επίδραση, οι μεγάλοι αριθμοί κάνουν έναν μεγάλο στροβιλισμό προς τα αριστερά και οι μεγάλοι αρνητικοί αριθμοί κάνουν έναν μεγάλο στροβιλισμό προς τα δεξιά
++ `pixelate`{: class = "block3looks"}: `0` σημαίνει ότι δεν υπάρχει αποτέλεσμα και οι μεγαλύτεροι αριθμοί δημιουργούν περισσότερα εικονοστοιχεία
++ `μωσαϊκό`{: class = "block3looks"}: `0` σημαίνει ότι δεν υπάρχει αποτέλεσμα και μεγαλύτεροι ή αρνητικοί αριθμοί επηρεάζουν τον αριθμό των αντιγράφων
++ `φωτεινότητα`{: class = "block3looks"}: `0` σημαίνει καμία επίδραση, οι αριθμοί έως `100` κάνουν το sprite πιο ελαφρύ και οι αρνητικοί αριθμοί έως `-100` κάνουν το sprite πιο σκοτεινό
++ `φάντασμα`{: class = "block3looks"}: `0` σημαίνει ότι δεν υπάρχει αποτέλεσμα και οι αριθμοί έως `100` κάνουν το sprite πιο διαφανές
 
-Try to `set`{:class="block3looks"} the different effect values to see what each one does. Explore how different effect changes make your sprite look.
+Προσπαθήστε να `ορίσετε`{: class = "block3looks"} τις διαφορετικές τιμές εφέ για να δείτε τι κάνει το καθένα. Εξερευνήστε πώς οι διαφορετικές αλλαγές εφέ κάνουν το sprite σας να φαίνεται.
 
 ```blocks3
 set [whirl v] effect to (100)
@@ -22,7 +22,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-**Tip:** A `color effect`{:class="block3looks"} of `225` is the same as a `color effect`{:class="block3looks"} of `25`, so you can keep changing the colour. For other graphic effects, no other changes will be made after you reach the maximum or minimum number for the effect.
+**Συμβουλή:** Ένα εφέ ``{: class = "block3looks"} από `225` είναι το ίδιο με ένα εφέ ``{: class = "block3looks"} από `25`, ώστε να μπορείτε να συνεχίσετε να αλλάζετε χρώμα. Για άλλα εφέ γραφικών, καμία άλλη αλλαγή δεν θα πραγματοποιηθεί αφού φτάσετε τον μέγιστο ή τον ελάχιστο αριθμό για το εφέ.
 
 ```blocks3
 forever
@@ -30,13 +30,13 @@ change [color v] effect by [25]
 wait [0.5] seconds
 ```
 
-Use the `clear graphic effects`{:class="block3looks"} block to start again. Clicking on the green flag also clears all graphic effects.
+Χρησιμοποιήστε το `σαφή εφέ γραφικών`{: class = "block3looks"} για να ξεκινήσετε ξανά. Κάνοντας κλικ στην πράσινη σημαία διαγράφονται επίσης όλα τα εφέ γραφικών.
 
-To set a graphic effect for a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+Για να ορίσετε ένα εφέ γραφικών για ένα sprite κατά την έναρξη του έργου, τοποθετήστε ένα `σετ εφέ γραφικών σε`{: class = "block3looks"} μπλοκ κάτω από ένα `όταν η πράσινη σημαία έκανε κλικ`{: class = "block3events"}:
 
 ```blocks3
 when green flag clicked
 set [ghost v] effect to (25)
 ```
 
-**Tip:** You can also `set`{:class="block3looks"} and `change`{:class="block3looks"} graphic effects for the **Stage**.
+**Συμβουλή:** Μπορείτε επίσης να `ορίσετε`{: class = "block3looks"} και `αλλάξετε`:: class = "block3looks"} εφέ γραφικών για το **Στάδιο**.
