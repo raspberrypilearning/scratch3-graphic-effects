@@ -35,7 +35,7 @@ Utilise `annuler les effets graphiques`{:class="block3looks"} pour recommencer. 
 Le `mettre l'effet couleur`{:class="block3looks"} et `ajouter à l'effet couleur`{:class="block3looks"} ont tous deux des menus déroulants dans lesquels tu peux choisir parmi une gamme d'effets graphiques différents qui peuvent être utilisés pour changer l'apparence de ton sprite :
 
 ```blocks3
-quand le drapeau vert est cliqué
+when green flag clicked
 mettre l'effet [fantôme v] à (25)
 ```
 
