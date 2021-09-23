@@ -4,7 +4,7 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-De `zet kleur effect op`{: class = "block3looks"} en `verander kleur effect met`{:class="block3looks"} blokken hebben beide dropdown-menu's waarin je kunt kiezen uit een reeks verschillende grafische effecten waarmee je het uiterlijk van je sprite kunt veranderen:
+De `zet kleur effect op`{: class = "block3looks"} en `verander kleur effect met`{:class="block3looks"} blokken hebben beiden dropdown-menu's waarin je kunt kiezen uit een reeks verschillende grafische effecten waarmee je het uiterlijk van je sprite kunt veranderen:
 
 + `kleur`{:class="block3looks"}: van `0` tot `199` (grotere getallen lopen rond, dus `200` is hetzelfde als `0`)
 + `vissenoog`{:class="block3looks"}: `0` betekent geen effect, grote getallen geven een groter 'vissenoog'-effect en negatieve getallen veroorzaken een omgekeerd 'vissenoog'-effect
@@ -32,7 +32,7 @@ wait [0.5] seconds
 
 Gebruik `zet alle effecten uit`{:class="block3looks"} om opnieuw te beginnen. Door op de groene vlag te klikken, worden ook alle grafische effecten gewist.
 
-Om het grafische effect van een sprite in te stellen wanneer het project wordt gestart, plaatst u een `zet grafisch effect op`{:class="block3looks"} blok onder een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok:
+Om het grafische effect van een sprite in te stellen wanneer het project wordt gestart, plaats je een `zet grafisch effect op`{:class="block3looks"} blok onder een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok:
 
 ```blocks3
 when green flag clicked
