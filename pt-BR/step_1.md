@@ -1,20 +1,20 @@
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
+**Efeitos de galo**: [Veja interior](https://scratch.mit.edu/projects/435730522/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus in which you can choose from a range of different graphic effects that can be used to change your sprite's appearance:
+O `Configurar efeito de cor para`{: class = "block3looks"} e `altera o efeito de cor em`blocos {: class = "block3looks"}, ambos têm menus suspensos nos quais você pode escolher entre uma variedade de efeitos gráficos que podem ser usados para alterar a aparência do seu ator:
 
-+ `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
-+ `fisheye`{:class="block3looks"}: `0` means no effect, bigger numbers cause a bigger 'fisheye' effect, and negative numbers cause a reverse 'fisheye' effect
-+ `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, and big negative numbers make a big whirl to the right
-+ `pixelate`{:class="block3looks"}: `0` means no effect, and bigger numbers create more pixels
-+ `mosaic`{:class="block3looks"}: `0` means no effect, and bigger or negative numbers affect the number of copies
-+ `brightness`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker
-+ `ghost`{:class="block3looks"}: `0` means no effect, and numbers up to `100` make the sprite more transparent
++ `cor`{:class="block3looks"}: de `0` para `199` (maiores números serão agrupados, então`200` é o mesmo que `0`)
++ `olho de peixe`{:class="block3looks"}: `0` não altera nada, números maiores dão um efeito maior, e números negativos têm o efeito contrário
++ `olho de peixe`{: class = "block3looks"}: `0` não altera nada, números maiores dão um efeito maior, e números negativos têm o efeito contrário
++ `pixelado`{: class = "block3looks"}: `0` nenhuma alteração, números maiores ou positivos criam mais pixels
++ `mosaico`{:class="block3looks"}: `0` nenhuma alteração, números maiores ou negativos afetam o número de cópias
++ `brilho`{: class = "block3looks"}: `0` nenhuma alteração, números até `100` deixam o ator mais claro e números negativos até `-100` deixam o ator mais escuro
++ `fantasma`{: class = "block3looks"}: `0` nenhuma alteração, números até `100` afetam a transparência do ator
 
-Try to `set`{:class="block3looks"} the different effect values to see what each one does. Explore how different effect changes make your sprite look.
+Tente `alterar`{: class = "block3looks"} os valores do efeito para ver o que cada um faz. Veja como mudanças no efeito afetam a aparência de seu ator.
 
 ```blocks3
 set [whirl v] effect to (100)
@@ -22,7 +22,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-**Tip:** A `color effect`{:class="block3looks"} of `225` is the same as a `color effect`{:class="block3looks"} of `25`, so you can keep changing the colour. For other graphic effects, no other changes will be made after you reach the maximum or minimum number for the effect.
+**Dica:** Um `efeito de cor`{:class="block3looks"} de `225` é o mesmo que `efeito de cor`{:class="block3looks"} of `25`, então você pode continuar alterando a cor. Para outros efeitos gráficos, nenhuma alteração será feita depois que você atingir o número máximo ou mínimo para o efeito.
 
 ```blocks3
 forever
@@ -30,13 +30,13 @@ change [color v] effect by [25]
 wait [0.5] seconds
 ```
 
-Use the `clear graphic effects`{:class="block3looks"} block to start again. Clicking on the green flag also clears all graphic effects.
+Use o bloco `efeitos gráficos claros`{:class="block3looks"} para começar de novo. Clicar na bandeira verde também limpa todos os efeitos gráficos.
 
-To set a graphic effect for a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+Para definir o efeito gráfico de um ator assim que o projeto for iniciado, coloque um bloco `definir efeito gráfico para`{:class="block3looks"} sob um bloco `quando a bandeira verde é clicada`{:class="block3events"}:
 
 ```blocks3
 when green flag clicked
 set [ghost v] effect to (25)
 ```
 
-**Tip:** You can also `set`{:class="block3looks"} and `change`{:class="block3looks"} graphic effects for the **Stage**.
+**Dica:** Você também pode `definir`{: class = "block3looks"} e `alterar`{: class = "block3looks"} efeitos gráficos para o **Palco**.
