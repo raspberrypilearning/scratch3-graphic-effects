@@ -4,7 +4,7 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-De `zet kleur effect op`{:class="block3looks"} en `verander kleur effect met`{:class="block3looks"} blokken hebben beide dropdown-menu's waarin je kunt kiezen uit een reeks verschillende grafische effecten waarmee je het uiterlijk van je sprite kunt veranderen:
+De `zet kleur effect op`{:class="block3looks"} en `verander kleur effect met`{:class="block3looks"} blokken hebben beiden dropdown-menu's waarin je kunt kiezen uit een reeks verschillende grafische effecten waarmee je het uiterlijk van je sprite kunt veranderen:
 
 + `kleur`{:class="block3looks"}: van `0` tot `199` (grotere getallen lopen rond, dus `200` is hetzelfde als `0`)
 + `vissenoog`{:class="block3looks"}: `0` betekent geen effect, grote getallen geven een groter 'vissenoog'-effect en negatieve getallen veroorzaken een omgekeerd 'vissenoog'-effect
@@ -17,26 +17,26 @@ De `zet kleur effect op`{:class="block3looks"} en `verander kleur effect met`{:c
 Probeer met het `zet`{:class="block3looks"} codeblok de verschillende effectwaarden uit om te zien wat ze doen. Ontdek hoe de verschillende effecten jouw sprite veranderen.
 
 ```blocks3
-set [whirl v] effect to (100)
+set [draaikolk v] effect to (100)
 
-set [pixelate v] effect to (50)
+set [pixeleren v] effect to (50)
 ```
 
 **Tip:** Een `kleureffect`{:class="block3looks"} van `225` is gelijk aan een `kleureffect`{:class="block3looks"} van `25`, zodat je de kleur kunt blijven veranderen. Voor andere grafische effecten worden er geen andere wijzigingen aangebracht nadat je het maximale of minimale getal voor het effect hebt bereikt.
 
 ```blocks3
 forever
-change [color v] effect by [25]
+change [kleur v] effect by [25]
 wait [0.5] seconds
 ```
 
 Gebruik `zet alle effecten uit`{:class="block3looks"} om opnieuw te beginnen. Door op de groene vlag te klikken, worden ook alle grafische effecten gewist.
 
-Om het grafische effect van een sprite in te stellen wanneer het project wordt gestart, plaatst u een `zet grafisch effect op`{:class="block3looks"} blok onder een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok:
+Om het grafische effect van een sprite in te stellen wanneer het project wordt gestart, plaats je een `zet grafisch effect op`{:class="block3looks"} blok onder een `wanneer op de groene vlag wordt geklikt`{:class="block3events"} blok:
 
 ```blocks3
 when green flag clicked
-set [ghost v] effect to (25)
+set [transparant v] effect to (25)
 ```
 
 **Tip:** Je kunt ook `zet`{:class="block3looks"} en `verander`{:class="block3looks"} grafische effecten instellen voor het **Speelveld**.
