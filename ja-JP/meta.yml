@@ -1,0 +1,11 @@
+---
+title: 画像効果を使う
+hero_image: images/banner.png
+description: 画像効果を使用して、スプライトやステージの色、透明度、明るさ、その他の効果を変えたり、設定したりします
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-03-10"
+steps:
+  - title: 画像効果を使う
+
