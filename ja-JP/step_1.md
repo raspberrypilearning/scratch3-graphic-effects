@@ -1,20 +1,20 @@
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
+**ニワトリの画像効果**： [Scratchの内部を見る](https://scratch.mit.edu/projects/435730522/editor){:target="_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus in which you can choose from a range of different graphic effects that can be used to change your sprite's appearance:
+`色の効果を`{:class="block3looks"}に設定する、そして `色の効果を`{:class="block3looks"}ブロック毎に変える。どちらにもドロップダウンメニューがあり、さまざまな画像効果を選択でき、スプライトの外観を変えることができます。
 
-+ `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
-+ `fisheye`{:class="block3looks"}: `0` means no effect, bigger numbers cause a bigger 'fisheye' effect, and negative numbers cause a reverse 'fisheye' effect
-+ `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, and big negative numbers make a big whirl to the right
-+ `pixelate`{:class="block3looks"}: `0` means no effect, and bigger numbers create more pixels
-+ `mosaic`{:class="block3looks"}: `0` means no effect, and bigger or negative numbers affect the number of copies
-+ `brightness`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker
-+ `ghost`{:class="block3looks"}: `0` means no effect, and numbers up to `100` make the sprite more transparent
++ `色`{:class="block3looks"}: `0` から `199` までの間で選べます。(それより大きい数字は最初の数字に戻ります。 `200` は `0` と同じです。)
++ `魚眼レンズ`{:class="block3looks"}: `0` は画像効果なしです。数値が大きいほど「魚眼レンズ」効果が大きくなり、負の数は逆向きの「魚眼レンズ」効果になります。
++ `渦巻き`{;class="block3looks"}: `0` は画像効果なしです。大きな数字は大きな渦巻きを左回りに作り、大きな負の数は右回りの渦巻きを作ります。
++ `ピクセル化`{:class="block3looks"}: `0` は画像効果なしです。数が大きいほど多くのピクセルに分けられます。
++ `モザイク`{:class="block3looks"}: `0` は画像効果がなしです。大きい数または負の数によってコピー数が決まります。
++ `明るさ`{:class="block3looks"}: `0` は画像効果なしです。 数を`100` まで上げていくとでスプライトはより明るくなり、負の数を`-100`まで下げていくと スプライトはより暗くなります。
++ `幽霊`{:class="block3looks"}: `0` は画像効果なしです。数を`100` まで上げていくとスプライトはより透明になります。
 
-Try to `set`{:class="block3looks"} the different effect values to see what each one does. Explore how different effect changes make your sprite look.
+画像効果の値をいろいろ `設定`{:class="block3looks"}してみて、それぞれがどんな効果になるかを確認してください。 さまざまな画像効果によってスプライトがどのように違って見えるかを調べましょう。
 
 ```blocks3
 set [whirl v] effect to (100)
@@ -22,7 +22,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-**Tip:** A `color effect`{:class="block3looks"} of `225` is the same as a `color effect`{:class="block3looks"} of `25`, so you can keep changing the colour. For other graphic effects, no other changes will be made after you reach the maximum or minimum number for the effect.
+**ヒント:** A `色の効果`{;class="block3looks"}を `225`にすることは `色の効果`{:clsss="block3looks"} を`25`にすることと同じです。これにより、色を変え続けることができます 。 他の画像効果の場合、数値が最大または最小に達した後は、それ以上の変化はありません。
 
 ```blocks3
 forever
@@ -30,13 +30,13 @@ change [color v] effect by [25]
 wait [0.5] seconds
 ```
 
-Use the `clear graphic effects`{:class="block3looks"} block to start again. Clicking on the green flag also clears all graphic effects.
+`画像効果をなくす`{:class="block3looks"}ブロックを使用すると最初に戻ります。 緑の旗をクリックしても、すべての画像効果がクリアされます。
 
-To set a graphic effect for a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+プロジェクトが開始されたときにスプライトの画像効果を設定するには、 `色の効果を設定する`:{class="block3looks"}ブロックを `緑色のフラグが押されたとき`{:class="block3events"}ブロックの下に置きます。
 
 ```blocks3
 when green flag clicked
 set [ghost v] effect to (25)
 ```
 
-**Tip:** You can also `set`{:class="block3looks"} and `change`{:class="block3looks"} graphic effects for the **Stage**.
+**ヒント:** **ステージ**に対しても、画像効果を `設定`{:class="block3looks"}したり、 `変更`{:class="block3looks"}したりできます。
