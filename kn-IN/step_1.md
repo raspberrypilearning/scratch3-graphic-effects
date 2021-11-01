@@ -1,4 +1,4 @@
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
+**ರೂಸ್ಟರ್ ಪರಿಣಾಮಗಳು**: [ಒಳಗೆ ನೋಡಿ](https://scratch.mit.edu/projects/435730522/editor){: target = "_ blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
@@ -22,7 +22,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-**Tip:** A `color effect`{:class="block3looks"} of `225` is the same as a `color effect`{:class="block3looks"} of `25`, ಆದ್ದರಿಂದ ನೀವು ಬಣ್ಣವನ್ನು ಬದಲಿಸುತ್ತಿರಬಹುದು. ಇತರ ಗ್ರಾಫಿಕ್ ಪರಿಣಾಮಗಳಿಗಾಗಿ, ನೀವು ಪರಿಣಾಮಕ್ಕಾಗಿ ಗರಿಷ್ಠ ಅಥವಾ ಕನಿಷ್ಠ ಸಂಖ್ಯೆಯನ್ನು ತಲುಪಿದ ನಂತರ ಯಾವುದೇ ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡಲಾಗುವುದಿಲ್ಲ.
+**ಟಿಪ್:**`ಕಲರ್ ಎಫೆಕ್ಟ್`{: class = "block3looks"} `225` ಒಂದು `ಕಲರ್ ಎಫೆಕ್ಟ್`{: ಕ್ಲಾಸ್ = "ಬ್ಲಾಕ್ `ಲೂಕ್ಸ್"} 8 25`. ಇತರ ಗ್ರಾಫಿಕ್ ಪರಿಣಾಮಗಳಿಗಾಗಿ, ನೀವು ಪರಿಣಾಮಕ್ಕಾಗಿ ಗರಿಷ್ಠ ಅಥವಾ ಕನಿಷ್ಠ ಸಂಖ್ಯೆಯನ್ನು ತಲುಪಿದ ನಂತರ ಯಾವುದೇ ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡಲಾಗುವುದಿಲ್ಲ.
 
 ```blocks3
 forever
@@ -39,4 +39,4 @@ when green flag clicked
 set [ghost v] effect to (25)
 ```
 
-**Tip:** You can also `set`{:class="block3looks"} and `change`{:class="block3looks"} graphic effects for the **Stage**.
+**ಸಲಹೆ:** **ಹಂತ**ನೀವು `ಸೆಟ್`{: class = "block3looks}} ಮತ್ತು `ಬದಲಾಯಿಸಬಹುದು`{: class =" block3looks "} ಗ್ರಾಫಿಕ್ ಎಫೆಕ್ಟ್‌ಗಳು.
