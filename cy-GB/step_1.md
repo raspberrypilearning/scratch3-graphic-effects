@@ -1,20 +1,20 @@
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
+**Effeithiau Ceiliog**: [Gweld tu mewn](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus in which you can choose from a range of different graphic effects that can be used to change your sprite's appearance:
+Mae gan y blociau `gosod effaith lliw i`{:class="block3looks"} a `newid effaith lliw gan`{:class="block3looks"} ill dau gwymplenni lle y galli di ddewis o ystod o effeithiau graffeg y gellir eu defnyddio i newid sut mae corlun yn edrych:
 
-+ `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
-+ `fisheye`{:class="block3looks"}: `0` means no effect, bigger numbers cause a bigger 'fisheye' effect, and negative numbers cause a reverse 'fisheye' effect
-+ `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, and big negative numbers make a big whirl to the right
-+ `pixelate`{:class="block3looks"}: `0` means no effect, and bigger numbers create more pixels
-+ `mosaic`{:class="block3looks"}: `0` means no effect, and bigger or negative numbers affect the number of copies
-+ `brightness`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker
-+ `ghost`{:class="block3looks"}: `0` means no effect, and numbers up to `100` make the sprite more transparent
++ `lliw`{:class="block3looks"}: o `0` i `199` (bydd niferoedd mwy yn lapio o gwmpas, felly mae `200` yr un peth ag `0`)
++ `llygad pysgodyn`{:class="block3looks"}: Mae `0` yn golygu dim effaith, mae rhifau mwy yn achosi effaith 'llygad pysgodyn' fwy, ac mae rhifau negyddol yn achosi effaith 'fisheye' wedi'i gwrthdroi
++ `chwyrliad`{:class="block3looks"}: mae `0` yn golygu dim effaith, mae rhifau mawr yn chwyrliad mawr i'r chwith, ac mae rhifau negyddol mawr yn gwneud chwyrliad mawr i'r dde
++ `picseleiddio`{:class="block3looks"}: mae `0` yn golygu dim effaith, ac mae rhifau mwy yn creu mwy o bicseli
++ `mosaig`{:class="block3looks"}: mae `0` yn golygu dim effaith, ac mae rhifau mwy neu negyddol yn effeithio ar nifer y copïau
++ `disgleirdeb`{:class="block3looks"}: Mae `0` yn golygu dim effaith, mae rhifau hyd at `100` yn gwneud y corlun yn ysgafnach, ac mae rhifau negyddol i lawr i `-100` yn gwneud y corlun yn dywyllach
++ `ysbryd`{:class="block3looks"}: mae `0` golygu dim effaith, ac mae rhifau hyd at `100` yn gwneud y corlun yn fwy tryloyw
 
-Try to `set`{:class="block3looks"} the different effect values to see what each one does. Explore how different effect changes make your sprite look.
+Ceisia `osod`{:class="block3looks"} y gwahanol werthoedd effaith i weld beth mae pob un yn ei wneud. Arbrofa i weld sut mae gwahanol newid yr effeithiau yn gwneud i dy gorluniau edrych.
 
 ```blocks3
 set [whirl v] effect to (100)
@@ -22,7 +22,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-**Tip:** A `color effect`{:class="block3looks"} of `225` is the same as a `color effect`{:class="block3looks"} of `25`, so you can keep changing the colour. For other graphic effects, no other changes will be made after you reach the maximum or minimum number for the effect.
+**Awgrym:** Mae `effaith lliw`{:class="block3looks"} o `225` yr un peth ag `effaith lliw`{:class="block3looks"} o `25`, felly galli di barhau i newid y lliw. Ar gyfer effeithiau graffig eraill, ni wneir unrhyw newidiadau eraill ar ôl i ti gyrraedd y rhif uchaf neu isaf ar gyfer yr effaith.
 
 ```blocks3
 forever
@@ -30,13 +30,13 @@ change [color v] effect by [25]
 wait [0.5] seconds
 ```
 
-Use the `clear graphic effects`{:class="block3looks"} block to start again. Clicking on the green flag also clears all graphic effects.
+Defnyddia'r bloc `clirio effeithiau graffeg`{:class="block3looks"} i gychwyn eto. Mae clicio ar y faner werdd hefyd yn clirio pob effaith graffeg.
 
-To set a graphic effect for a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+I osod effaith graffeg ar gyfer corlun pan gaiff y prosiect ei gychwyn, rho floc `gosod effaith graffeg i`{:class="block3looks"} o dan bloc `pan fydd y fflag werdd wedi'i chlicio`{:class="block3events"}:
 
 ```blocks3
 when green flag clicked
 set [ghost v] effect to (25)
 ```
 
-**Tip:** You can also `set`{:class="block3looks"} and `change`{:class="block3looks"} graphic effects for the **Stage**.
+**Awgrym:** Galli di hefyd `osod`{:class="block3looks"} a `newid`{:class="block3looks"} effeithiau graffeg ar gyfer y **Llwyfan**.
