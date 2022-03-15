@@ -1,20 +1,20 @@
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
+**मुर्गा प्रभाव**: [अंदर](https://scratch.mit.edu/projects/435730522/editor)देखें {:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus in which you can choose from a range of different graphic effects that can be used to change your sprite's appearance:
+`रंग सेट करे`{:class="block3looks"} और `रंग बदले`{:class="block3looks"} खंडों के पास ड्राप डाउन मेनू हैं जिसमें से आप विभिन्न ग्राफ़िक इफेक्ट्स चुन सकते हैं जो आपके स्प्राइट की दिखावट बदल सकती हैं:
 
-+ `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
-+ `fisheye`{:class="block3looks"}: `0` means no effect, bigger numbers cause a bigger 'fisheye' effect, and negative numbers cause a reverse 'fisheye' effect
-+ `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, and big negative numbers make a big whirl to the right
-+ `pixelate`{:class="block3looks"}: `0` means no effect, and bigger numbers create more pixels
-+ `mosaic`{:class="block3looks"}: `0` means no effect, and bigger or negative numbers affect the number of copies
-+ `brightness`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker
-+ `ghost`{:class="block3looks"}: `0` means no effect, and numbers up to `100` make the sprite more transparent
++ `रंग`{:class="block3looks"}: `0` से `199` (इससे बड़ी संख्या वापस 0 से शुरू होंगे, तो `200` `0` के बराबर हैं)
++ `फ़िशिये`{:class="block3looks"}: `0` का मतलब हैं की कुछ नहीं होगा, बड़ी संख्याएं एक बड़ा 'फ़िशआई' प्रभाव पैदा करती हैं, और ऋणात्मक संख्याएं विपरीत 'फ़िशआई' प्रभाव का कारण बनती हैं
++ `चक्कर`{:class="block3looks"}: `0` का मतलब हैं की कुछ नहीं होगा, बड़ी संख्याएं बाईं ओर एक बड़ा चक्कर बनाती हैं, और बड़ी ऋणात्मक संख्याएं दाईं ओर एक बड़ा चक्कर बनाती हैं
++ `पिक्सेलेट`{:class="block3looks"}: `0` का मतलब हैं की कुछ नहीं होगा, और बड़ी संख्याएं अधिक पिक्सेल बनाती हैं
++ `मोज़ेक`{:class="block3looks"}: `0` का मतलब हैं की कुछ नहीं होगा, और बड़ी या नकारात्मक संख्याएं प्रतियों की संख्या को प्रभावित करती हैं
++ `चमक`{:class="block3looks"}: `0` का मतलब हैं की कुछ नहीं होगा, `100` तक की संख्याएं स्प्राइट को हल्का बनाती हैं, और ऋणात्मक संख्याएं `-100` तक स्प्राइट को गहरा बनाती हैं
++ `घोस्ट`{:class="block3looks"}: `0` का मतलब हैं की कुछ नहीं होगा, और `100` तक की संख्या स्प्राइट को अधिक पारदर्शी बनाती है
 
-Try to `set`{:class="block3looks"} the different effect values to see what each one does. Explore how different effect changes make your sprite look.
+प्रत्येक व्यक्ति क्या करता है, यह देखने के लिए विभिन्न प्रभाव मानों `सेट`{:class="block3looks"} करने का प्रयास करें। देखे अलग अलग इफ़ेक्ट आपके स्प्राइट की दिखावट कैसे बदलती हैं ।
 
 ```blocks3
 set [whirl v] effect to (100)
@@ -22,7 +22,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-**Tip:** A `color effect`{:class="block3looks"} of `225` is the same as a `color effect`{:class="block3looks"} of `25`, so you can keep changing the colour. For other graphic effects, no other changes will be made after you reach the maximum or minimum number for the effect.
+**सुझाव:** `225` `रंग इफ़ेक्ट`{:class="block3looks"} `25` `रंग इफ़ेक्ट`{:class="block3looks"} के बराबर हैं, तो आप बार बार रंग बदल सकते हैं। अन्य ग्राफिक प्रभावों के लिए, प्रभाव के लिए अधिकतम या न्यूनतम संख्या तक पहुंचने के बाद कोई अन्य परिवर्तन नहीं किया जाएगा।
 
 ```blocks3
 forever
@@ -30,13 +30,13 @@ change [color v] effect by [25]
 wait [0.5] seconds
 ```
 
-Use the `clear graphic effects`{:class="block3looks"} block to start again. Clicking on the green flag also clears all graphic effects.
+फिर से शुरू करने के लिए `स्पष्ट ग्राफिक प्रभाव`{:class="block3looks"} खंड का उपयोग करें। हरे झंडे पर क्लिक करने से भी सभी ग्राफिक प्रभाव मिट जाएंगे।
 
-To set a graphic effect for a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+प्रोजेक्ट के शुरुआत में एक ग्राफ़िक इफ़ेक्ट का उपयोग करने के लिए, `ग्राफ़िक इफ़ेक्ट लगाए`{:class="block3looks"} खंड को `जब हरी झंडा क्लिक किया गया हो`{:class="block3events"} खंड के निचे लगाए:
 
 ```blocks3
 when green flag clicked
 set [ghost v] effect to (25)
 ```
 
-**Tip:** You can also `set`{:class="block3looks"} and `change`{:class="block3looks"} graphic effects for the **Stage**.
+**सुझाव:** आप ग्राफ़िक प्रभाव को `सेट`{:class="block3looks"} और `बदल`{:class="block3looks"} भी कर सकते हैं।
