@@ -39,4 +39,4 @@ when green flag clicked
 set [ghost v] effect to (25)
 ```
 
-**Порада:** Також можна `встановити`{:class="block3looks"} та`змінити`{:class="block3looks"} графічні ефекти для **Сцени**.
+**Порада:** Також можна `встановити`{:class="block3looks"} та `змінити`{:class="block3looks"} графічні ефекти для **Сцени**.
