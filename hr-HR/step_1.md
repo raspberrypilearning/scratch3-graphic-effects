@@ -1,20 +1,20 @@
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
+**Efekti pijetla**: [Vidi unutra](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus in which you can choose from a range of different graphic effects that can be used to change your sprite's appearance:
+Blokovi `promijeni efekt boja na`{:class="block3looks"} i `promijeni efekt boja za`{:class="block3looks"} imaju padajuće izbornike u kojima možeš birati između niza različitih grafičkih efekata koje možeš koristiti za promjenu izgleda svog lika:
 
-+ `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
-+ `fisheye`{:class="block3looks"}: `0` means no effect, bigger numbers cause a bigger 'fisheye' effect, and negative numbers cause a reverse 'fisheye' effect
-+ `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, and big negative numbers make a big whirl to the right
-+ `pixelate`{:class="block3looks"}: `0` means no effect, and bigger numbers create more pixels
-+ `mosaic`{:class="block3looks"}: `0` means no effect, and bigger or negative numbers affect the number of copies
-+ `brightness`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker
-+ `ghost`{:class="block3looks"}: `0` means no effect, and numbers up to `100` make the sprite more transparent
++ `boja`{:class="block3looks"}: od `0` do `199` (veći brojevi vraćati će se na početak, dakle vrijednost `200</0 > biti će iste boje kao vrijednost <code>0`)
++ `riblje oko`{:class="block3looks"}: `0` znači da nema nikakvog efekta, veći brojevi uzrokuju veći efekt „ribljeg oka”, a negativni brojevi uzrokuju obrnuti efekt „ribljeg oka”
++ `vrtlog`{:class="block3looks"}: `0` znači da nema nikakvog efekta, veliki brojevi čine veliki vrtlog ulijevo, a veliki negativni brojevi čine veliki vrtlog udesno
++ `pozrnati`{:class="block3looks"}: `0` znači da nema nikakvog efekta, a veći brojevi stvaraju više piksela
++ `mozaik`{:class="block3looks"}: `0` znači da nema nikakvog efekta, a veći ili negativni brojevi utječu na broj kopija
++ `osvjetljenje`{:class="block3looks"}: `0` znači da nema nikakvog efekta, brojevi do `100` čine lik svjetlijim, a negativni brojevi do `-100` čine lik tamnijim
++ `duh`{:class="block3looks"}: `0` znači da nema nikakvog efekta, a brojevi do `100` čine lik transparentnijim
 
-Try to `set`{:class="block3looks"} the different effect values to see what each one does. Explore how different effect changes make your sprite look.
+Pokušaj `promijeniti`{:class="block3looks"} različite vrijednosti efekata da vidiš što svaki radi. Istraži kako različite promjene efekata utječu na izgled tvog lika.
 
 ```blocks3
 set [whirl v] effect to (100)
@@ -22,7 +22,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-**Tip:** A `color effect`{:class="block3looks"} of `225` is the same as a `color effect`{:class="block3looks"} of `25`, so you can keep changing the colour. For other graphic effects, no other changes will be made after you reach the maximum or minimum number for the effect.
+**Savjet:** `efekt boja`{:class="block3looks"} postavljen na `225` isti je kao `efekt boja` {:class="block3looks"} postavljen na `25`, tako da možeš nastaviti mijenjati boju. Za ostale grafičke efekte neće se izvršiti nikakve druge promjene nakon što dosegneš maksimalni ili minimalni broj za efekt.
 
 ```blocks3
 forever
@@ -30,13 +30,13 @@ change [color v] effect by [25]
 wait [0.5] seconds
 ```
 
-Use the `clear graphic effects`{:class="block3looks"} block to start again. Clicking on the green flag also clears all graphic effects.
+Upotrijebi blok `ukloni grafičke efekte`{:class="block3looks"} da počneš ispočetka. Klikom na zelenu zastavicu brišu se i svi grafički efekti.
 
-To set a graphic effect for a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+Za postavljanje grafičkog efekta za lika kada se projekt pokrene, postavi blok `promijeni grafički efekt na`{:class="block3looks"} ispod bloka `kada je kliknuta zelena zastavica`{:class="block3events"}:
 
 ```blocks3
 when green flag clicked
 set [ghost v] effect to (25)
 ```
 
-**Tip:** You can also `set`{:class="block3looks"} and `change`{:class="block3looks"} graphic effects for the **Stage**.
+**Savjet:** Također možeš `postaviti`{:class="block3looks"} i `promijeniti`{:class="block3looks"} grafičke efekte za **pozornicu**.
