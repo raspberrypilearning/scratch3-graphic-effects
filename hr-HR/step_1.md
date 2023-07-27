@@ -6,7 +6,7 @@
 
 Blokovi `promijeni efekt boja na`{:class="block3looks"} i `promijeni efekt boja za`{:class="block3looks"} imaju padajuće izbornike u kojima možeš birati između niza različitih grafičkih efekata koje možeš koristiti za promjenu izgleda svog lika:
 
-+ `boja`{:class="block3looks"}: od `0` do `199` (veći brojevi vraćati će se na početak, dakle vrijednost `200</0 > biti će iste boje kao vrijednost <code>0`)
++ `boja`{:class="block3looks"}: od `0` do `199` (veći brojevi vraćati će se na početak, dakle vrijednost `200` biti će iste boje kao vrijednost `0`)
 + `riblje oko`{:class="block3looks"}: `0` znači da nema nikakvog efekta, veći brojevi uzrokuju veći efekt „ribljeg oka”, a negativni brojevi uzrokuju obrnuti efekt „ribljeg oka”
 + `vrtlog`{:class="block3looks"}: `0` znači da nema nikakvog efekta, veliki brojevi čine veliki vrtlog ulijevo, a veliki negativni brojevi čine veliki vrtlog udesno
 + `pozrnati`{:class="block3looks"}: `0` znači da nema nikakvog efekta, a veći brojevi stvaraju više piksela
