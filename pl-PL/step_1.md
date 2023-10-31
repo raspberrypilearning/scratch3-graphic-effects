@@ -1,4 +1,4 @@
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
+**Efekty koguta**: [Zajrzyj do środka](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
