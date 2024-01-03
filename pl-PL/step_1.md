@@ -22,7 +22,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-`kolor`{:class="block3looks"}: od `0` do `199` (większe liczby spowodują powrót do początku zakresu wartości, więc `200` będzie odpowiadało `0`) W przypadku innych efektów graficznych żadne inne zmiany nie zostaną wprowadzone po osiągnięciu maksymalnej lub minimalnej wartości dla danego efektu.
+**Wskazówka:** `efekt kolor`{:class="block3looks"} z wartością `225` jest taki sam jak `efekt kolor`{:class="block3looks"} z wartością `25`, więc możesz ciągle zmieniać kolor. W przypadku innych efektów graficznych żadne inne zmiany nie zostaną wprowadzone po osiągnięciu maksymalnej lub minimalnej wartości dla danego efektu.
 
 ```blocks3
 forever
@@ -30,7 +30,7 @@ change [color v] effect by [25]
 wait [0.5] seconds
 ```
 
-`duch`{:class="block3looks"}: `0` oznacza brak efektu, a liczby do `100` sprawiają, że duszek jest bardziej przezroczysty Kliknięcie zielonej flagi również usuwa wszystkie efekty graficzne.
+Użyj bloku `wyczyść efekty graficzne`{:class="block3looks"}, aby zacząć od nowa. Kliknięcie zielonej flagi również usuwa wszystkie efekty graficzne.
 
 Aby ustawić efekt graficzny dla duszka, gdy projekt jest uruchamiany, umieść blok `ustaw efekt graficzny na`{:class="block3looks"} pod blokiem `kiedy kliknięto zieloną flagę`{:class="block3events"}:
 
