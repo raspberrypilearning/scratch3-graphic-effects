@@ -4,7 +4,7 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Bloki `zmień efekt kolor na`{:class="block3looks"} i `zmień efekt kolor o`{:class="block3looks"} mają rozwijane menu, przy pomocy którego możesz wybierać spośród szeregu różnych efektów graficznych, których można użyć do zmiany wyglądu duszka:
+Bloki `ustaw efekt kolor na`{:class="block3looks"} i `ustaw efekt kolor o`{:class="block3looks"} mają rozwijane menu, przy pomocy którego możesz wybierać spośród szeregu różnych efektów graficznych, których można użyć do zmiany wyglądu duszka:
 
 + `kolor`{:class="block3looks"}: od `0` do `199` (większe liczby spowodują powrót do początku zakresu wartości, więc `200` będzie odpowiadało `0`)
 + `rybie oko`{:class="block3looks"}: `0` oznacza brak efektu, większe liczby powodują większy efekt „rybiego oka”, a liczby ujemne powodują odwrotny efekt „rybiego oka”
