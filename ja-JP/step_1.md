@@ -4,7 +4,7 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-`色の効果を`{:class="block3looks"}に設定する、そして `色の効果を`{:class="block3looks"}ブロック毎に変える。どちらにもドロップダウンメニューがあり、さまざまな画像効果を選択でき、スプライトの外観を変えることができます。
+`色の効果を〜にする`{:class="block3looks"}ブロックと `色の効果を〜ずつ変える`{:class="block3looks"}ブロックはどちらにもドロップダウンメニューがあり、さまざまな画像効果を選択でき、スプライトの外観を変えることができます。
 
 + `色`{:class="block3looks"}: `0` から `199` までの間で選べます。(それより大きい数字は最初の数字に戻ります。 `200` は `0` と同じです。)
 + `魚眼レンズ`{:class="block3looks"}: `0` は画像効果なしです。数値が大きいほど「魚眼レンズ」効果が大きくなり、負の数は逆向きの「魚眼レンズ」効果になります。
@@ -22,7 +22,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-**ヒント:** A `色の効果`{:class="block3looks"}を `225`にすることは `色の効果`{:class="block3looks"} を`25`にすることと同じです。これにより、色を変え続けることができます 。 他の画像効果の場合、数値が最大または最小に達した後は、それ以上の変化はありません。
+**ヒント:** `色の効果`{:class="block3looks"}を `225`にすることは `色の効果`{:class="block3looks"} を`25`にすることと同じです。これにより、色を変え続けることができます 。 他の画像効果の場合、数値が最大または最小に達した後は、それ以上の変化はありません。
 
 ```blocks3
 forever
