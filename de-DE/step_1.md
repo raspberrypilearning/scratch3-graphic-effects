@@ -1,20 +1,20 @@
-**Rooster effects**: [See inside](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
+**Hahn mit Effekte**: [Schaue hinein](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-The `set color effect to`{:class="block3looks"} and `change color effect by`{:class="block3looks"} blocks both have drop-down menus in which you can choose from a range of different graphic effects that can be used to change your sprite's appearance:
+Die Blöcke „ `Setze Effekt Farbe auf`{:class="block3looks"}“ und „ `Ändere Effekt Farbe um`{:class="block3looks"}“ verfügen beide über Dropdown-Menüs, in denen du aus einer Reihe verschiedener Grafikeffekte auswählen kannst, mit denen das Erscheinungsbild der Figur geändert werden kann:
 
-+ `color`{:class="block3looks"}: from `0` to `199` (bigger numbers will wrap around, so `200` is the same as `0`)
-+ `fisheye`{:class="block3looks"}: `0` means no effect, bigger numbers cause a bigger 'fisheye' effect, and negative numbers cause a reverse 'fisheye' effect
-+ `whirl`{:class="block3looks"}: `0` means no effect, big numbers make a big whirl to the left, and big negative numbers make a big whirl to the right
-+ `pixelate`{:class="block3looks"}: `0` means no effect, and bigger numbers create more pixels
-+ `mosaic`{:class="block3looks"}: `0` means no effect, and bigger or negative numbers affect the number of copies
-+ `brightness`{:class="block3looks"}: `0` means no effect, numbers up to `100` make the sprite lighter, and negative numbers down to `-100` make the sprite darker
-+ `ghost`{:class="block3looks"}: `0` means no effect, and numbers up to `100` make the sprite more transparent
++ `Farbe`{:class="block3looks"}: von `0` bis `199` (größere Zahlen werden umgebrochen, also ist `200` dasselbe wie `0`)
++ `Fischauge`{:class="block3looks"}: `0` bedeutet keinen Effekt, größere Zahlen verursachen einen größeren Fischaugeneffekt und negative Zahlen verursachen einen umgekehrten Fischaugeneffekt
++ `Wirbel`{:class="block3looks"}: `0` bedeutet keinen Effekt, große Zahlen machen einen großen Wirbel nach links und große negative Zahlen machen einen großen Wirbel nach rechts
++ `verpixeln`{:class="block3looks"}: `0` bedeutet keinen Effekt, und größere Zahlen erzeugen mehr Pixel
++ `Mosaik`{:class="block3looks"}: `0` bedeutet keinen Effekt, und größere oder negative Zahlen beeinflussen die Anzahl der Kopien
++ `Helligkeit`{:class="block3looks"}: `0` bedeutet keinen Effekt, Zahlen bis `100` machen die Figur heller und negative Zahlen bis `-100` machen die Figur dunkler
++ `Geist`{:class="block3looks"}: `0` bedeutet keinen Effekt, und Zahlen bis `100` machen die Figur transparenter
 
-Try to `set`{:class="block3looks"} the different effect values to see what each one does. Explore how different effect changes make your sprite look.
+Versuche, die verschiedenen Effektwerte zu `setzen`{:class="block3looks"} um zu sehen, was jeder einzelne bewirkt. Finde heraus, wie die unterschiedlichen Effekte das Aussehen deiner Figur beeinflussen.
 
 ```blocks3
 set [whirl v] effect to (100)
