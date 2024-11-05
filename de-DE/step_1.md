@@ -4,7 +4,7 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Die Blöcke „ `Setze Effekt Farbe auf`{:class="block3looks"}“ und „ `Ändere Effekt Farbe um`{:class="block3looks"}“ verfügen beide über Dropdown-Menüs, in denen du aus einer Reihe verschiedener Grafikeffekte auswählen kannst, mit denen das Erscheinungsbild der Figur geändert werden kann:
+Die Blöcke „`Setze Effekt Farbe auf`{:class="block3looks"}“ und „`Ändere Effekt Farbe um`{:class="block3looks"}“ verfügen beide über Dropdown-Menüs, in denen du aus einer Reihe verschiedener Grafikeffekte auswählen kannst, mit denen das Erscheinungsbild der Figur geändert werden kann:
 
 + `Farbe`{:class="block3looks"}: von `0` bis `199` (größere Zahlen werden umgebrochen, also ist `200` dasselbe wie `0`)
 + `Fischauge`{:class="block3looks"}: `0` bedeutet keinen Effekt, größere Zahlen verursachen einen größeren Fischaugeneffekt und negative Zahlen verursachen einen umgekehrten Fischaugeneffekt
@@ -22,7 +22,7 @@ set [whirl v] effect to (100)
 set [pixelate v] effect to (50)
 ```
 
-**Tip:** A `color effect`{:class="block3looks"} of `225` is the same as a `color effect`{:class="block3looks"} of `25`, so you can keep changing the colour. For other graphic effects, no other changes will be made after you reach the maximum or minimum number for the effect.
+**Tipp:** Ein `Ändere Effekt Farbe`{:class="block3looks"} von `225` ist identisch zu einem `Farbeffekt`{:class="block3looks"} von `25`, du kannst die Farbe also immer wieder ändern. Bei anderen Effekten werden keine weiteren Änderungen mehr vorgenommen, nachdem die Maximal- oder Minimalzahl für den Effekt erreicht wurde.
 
 ```blocks3
 forever
@@ -30,13 +30,13 @@ change [color v] effect by [25]
 wait [0.5] seconds
 ```
 
-Use the `clear graphic effects`{:class="block3looks"} block to start again. Clicking on the green flag also clears all graphic effects.
+Verwende den Block `schalte Grafikeffekte aus`{:class="block3looks"}, um erneut zu beginnen. Durch Klicken auf die grüne Flagge werden die Grafikeffekte ebenfalls gelöscht.
 
-To set a graphic effect for a sprite when the project is started, place a `set graphic effect to`{:class="block3looks"} block under a `when green flag clicked`{:class="block3events"} block:
+Um beim Starten des Projekts einen Grafikeffekt für eine Figur festzulegen, platziere einen Block `setze Effekt ... auf` {:class="block3looks"} unter einem Block `Wenn auf grüne Flagge geklickt wird`{:class="block3events"}:
 
 ```blocks3
 when green flag clicked
 set [ghost v] effect to (25)
 ```
 
-**Tip:** You can also `set`{:class="block3looks"} and `change`{:class="block3looks"} graphic effects for the **Stage**.
+**Tipp:**Du kannst die Blöcke `setze`{:class="block3looks"} und `ändere`{:class="block3looks"} Grafikeffekte für die **Bühne** ändern.
