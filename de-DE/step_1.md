@@ -39,4 +39,4 @@ when green flag clicked
 set [Geist v] effect to (25)
 ```
 
-**Tipp:**Du kannst die Blöcke `setze`{:class="block3looks"} und `ändere`{:class="block3looks"} Grafikeffekte für die **Bühne** ändern.
+**Tipp:** Du kannst die Blöcke `setze`{:class="block3looks"} und `ändere`{:class="block3looks"} Grafikeffekte für die **Bühne** ändern.
