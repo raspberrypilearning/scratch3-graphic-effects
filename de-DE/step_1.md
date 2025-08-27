@@ -1,4 +1,4 @@
-**Hahn mit Effekte**: [Schaue hinein](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
+**Hahn-Effekte**: [Schaue hinein](https://scratch.mit.edu/projects/435730522/editor){:target="_blank"}
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/435730522/?autostart=false" frameborder="0"></iframe>
@@ -7,12 +7,12 @@
 Die Blöcke „`Setze Effekt Farbe auf`{:class="block3looks"}“ und „`Ändere Effekt Farbe um`{:class="block3looks"}“ verfügen beide über Dropdown-Menüs, in denen du aus einer Reihe verschiedener Grafikeffekte auswählen kannst, mit denen das Erscheinungsbild der Figur geändert werden kann:
 
 + `Farbe`{:class="block3looks"}: von `0` bis `199` (größere Zahlen werden umgebrochen, also ist `200` dasselbe wie `0`)
-+ `Fischauge`{:class="block3looks"}: `0` bedeutet keinen Effekt, größere Zahlen verursachen einen größeren Fischaugeneffekt und negative Zahlen verursachen einen umgekehrten Fischaugeneffekt
++ `Fischauge`{:class="block3looks"}: `0` bedeutet keinen Effekt, größere Zahlen bewirken einen größeren Fischaugeneffekt und negative Zahlen bewirken einen umgekehrten Fischaugeneffekt
 + `Wirbel`{:class="block3looks"}: `0` bedeutet keinen Effekt, große Zahlen machen einen großen Wirbel nach links und große negative Zahlen machen einen großen Wirbel nach rechts
-+ `verpixeln`{:class="block3looks"}: `0` bedeutet keinen Effekt, und größere Zahlen erzeugen mehr Pixel
++ `Pixel`{:class="block3looks"}: `0` bedeutet keinen Effekt, und größere Zahlen erzeugen mehr Pixel
 + `Mosaik`{:class="block3looks"}: `0` bedeutet keinen Effekt, und größere oder negative Zahlen beeinflussen die Anzahl der Kopien
 + `Helligkeit`{:class="block3looks"}: `0` bedeutet keinen Effekt, Zahlen bis `100` machen die Figur heller und negative Zahlen bis `-100` machen die Figur dunkler
-+ `Geist`{:class="block3looks"}: `0` bedeutet keinen Effekt, und Zahlen bis `100` machen die Figur transparenter
++ `Durchsichtigkeit`{:class="block3looks"}: `0` bedeutet keinen Effekt, und Zahlen bis `100` machen die Figur transparenter
 
 Versuche, die verschiedenen Effektwerte zu `setzen`{:class="block3looks"} um zu sehen, was jeder einzelne bewirkt. Finde heraus, wie die unterschiedlichen Effekte das Aussehen deiner Figur beeinflussen.
 
